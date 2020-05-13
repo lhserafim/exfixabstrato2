@@ -44,7 +44,7 @@ public class Program {
             System.out.print(c.getName() + ": $ " + String.format("%.2f\n",c.tax()));
             totalTaxes += c.tax();
         }
-        System.out.print("TOTAL TAXES PAID:"+ " $ " + String.format("%.2f\n",totalTaxes));
+        System.out.print("TOTAL PAID:"+ " $ " + String.format("%.2f\n",totalTaxes));
         sc.close();
 
     }
