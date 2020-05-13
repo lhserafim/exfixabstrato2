@@ -46,6 +46,7 @@ public class Program {
         }
         System.out.print("TOTAL PAID:"+ " $ " + String.format("%.2f\n",totalTaxes));
         System.out.println("Teste GIT usando clone");
+        System.out.println("Teste GIT usando branch");
         sc.close();
 
     }
